@@ -42,6 +42,18 @@ angular.module('contenteditable', [])
               html = html2
             }
           }
+
+          // Strip out HTML characters
+
+          function strip(html)
+          {
+             var tmp = document.createElement("DIV");
+             tmp.innerHTML = html;
+             return tmp.textContent || tmp.innerText || "";
+          }
+
+          html = strip(html);
+          
           ngModel.$setViewValue(html)
           if (rerender) {
             ngModel.$render()
