@@ -1,10 +1,10 @@
 {
   "name": "angular-contenteditable",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "angular model for the 'contenteditable' html attribute",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akatov/angular-contenteditable.git"
+    "url": "https://github.com/mlvl/angular-contenteditable.git"
   },
   "main": "angular-contenteditable.js",
   "directories": {

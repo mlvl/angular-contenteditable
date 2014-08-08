@@ -1,3 +1,7 @@
+#MLVL Updates
+
+- Strip unwanted HTML characters, such as &amp, &nbsp, which were being propogated back to the model
+
 # angular-contenteditable
 [![Build Status](https://img.shields.io/travis/akatov/angular-contenteditable.svg)](https://travis-ci.org/akatov/angular-contenteditable)
 [![Dependency Status](https://img.shields.io/gemnasium/akatov/angular-contenteditable.svg)](https://gemnasium.com/akatov/angular-contenteditable)
